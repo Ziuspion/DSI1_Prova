@@ -1,7 +1,6 @@
 p2 = 10
 p5 = 20
 p10 = 30
-ac = 20 / 100
 pacote1 = 5
 pacote2 = 6
 pacote3 = 7
@@ -15,7 +14,7 @@ pacote10i = 8
 kg2 = 2
 tkg = pacote1 + pacote2 + pacote3 + pacote4i + pacote5i + pacote6i + pacote7i + pacote8 + pacote9 + pacote10i
 print ("Total de pacotes: 10")
-print ("peso total:", tkg )
+print ("peso total:", tkg, 'kg')
 if (pacote1 <= 2):
     print("pacote1 é menor que 2kg")
 else:
@@ -105,39 +104,48 @@ if (pacote2> 10):
 else:
     print("pacote2 não é maior que 10kg")
 if (pacote3 > 10):
-    print("pacote3 não é maior que 10kg")
-else:
     print("pacote3 é maior que 10kg")
+else:
+    print("pacote3 não é maior que 10kg")
 if (pacote4i > 10):
-    print("pacote4 não é maior que 10kg")
-else:
     print("pacote4 é maior que 10kg")
+else:
+    print("pacote4 não é maior que 10kg")
 if (pacote5i > 10):
-    print("pacote5 não é maior que 10kg")
-else:
     print("pacote5 é maior que 10kg")
+else:
+    print("pacote5 não é maior que 10kg")
 if (pacote6i > 10):
-    print("pacote6 não é maior que 10kg")
-else:
     print("pacote6 é maior que 10kg")
+else:
+    print("pacote6 não é maior que 10kg")
 if (pacote7i > 10):
-    print("pacote7 não é maior que 10kg")
-else:
     print("pacote7 é maior que 10kg")
+else:
+    print("pacote7 não é maior que 10kg")
 if (pacote8 > 10):
-    print("pacote8 não é maior que 10kg")
-else:
     print("pacote8 é maior que 10kg")
+else:
+    print("pacote8 não é maior que 10kg")
 if (pacote9 > 10):
-    print("pacote9 não é maior que 10kg")
-else:
     print("pacote9 é maior que 10kg")
-if (pacote10i > 10):
-    print("pacote10 não é maior que 10kg")
 else:
+    print("pacote9 não é maior que 10kg")
+if (pacote10i > 10):
     print("pacote10 é maior que 10kg")
-
+else:
+    print("pacote10 não é maior que 10kg")
 
 
 print("Taxa fixa de R$10 para os pacotes 8 e 9")
-print
+print("Taxa fixa de R$20 para os pacotes 1, 2, 3, 4, 5, 6, 7 e 10")
+print("nao tem pacotes acima de 10kg")
+capital = 20 * 5
+montante = 100 * (1 + (20/100))
+print("Taxa total de taxa dos pacotes internacionais 4, 5, 6, 7 e 10 é de ", montante  )
+sp1 = (p2 * 2)
+sptvdasoito = (p5 * 3)
+rp = sptvdasoito + sp1 + montante
+print("faturamento bruto do lote:", rp)
+m = 200 / 10
+print("média de faturamento por produto", m)
