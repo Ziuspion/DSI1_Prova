@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="prova"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-10 12:09:15 "/>
+        <attribute name="created" value="QWx1bm87RFNOMTIyMTI3Mzg2MzsyMDI2LTA2LTEwOyIxMToyMzo0NiAiOzI0NDQ="/>
+        <attribute name="edited" value="QWx1bm87RFNOMTIyMTI3Mzg2MzsyMDI2LTA2LTEwOyIxMjowOToxNSAiOzE7MjU1Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="p1" type="Integer" array="False" size=""/>
+            <assign variable="p1" expression="5"/>
+            <declare name="p2" type="Integer" array="False" size=""/>
+            <assign variable="p2" expression="6"/>
+            <declare name="p3" type="Integer" array="False" size=""/>
+            <assign variable="p3" expression="7"/>
+            <declare name="p4i" type="Integer" array="False" size=""/>
+            <assign variable="p4i" expression="10"/>
+            <declare name="p5i" type="Integer" array="False" size=""/>
+            <assign variable="p5i" expression="5"/>
+            <declare name="p6i" type="Integer" array="False" size=""/>
+            <assign variable="p6i" expression="7"/>
+            <declare name="p7i" type="Integer" array="False" size=""/>
+            <assign variable="p7i" expression="6"/>
+            <declare name="p8" type="Integer" array="False" size=""/>
+            <assign variable="p8" expression="2"/>
+            <declare name="p9" type="Integer" array="False" size=""/>
+            <assign variable="p9" expression="1"/>
+            <declare name="p10i" type="Integer" array="False" size=""/>
+            <assign variable="p10i" expression="8"/>
+            <if expression="p1 &lt; 2">
+                <then>
+                    <output expression="&quot;&#233; menor que 2kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; maior que 2kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p2 &lt;= 2">
+                <then>
+                    <output expression="&quot;&#233; menor que 2kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; maior que 2kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p3 &lt;= 2">
+                <then>
+                    <output expression="&quot;&#233; menor que 2kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; maior que 2kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p4i &lt;= 2">
+                <then>
+                    <output expression="&quot;&#233; menor que 2kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; maior que 2kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p5i &lt;= 2">
+                <then>
+                    <output expression="&quot;&#233; menor que 2kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; maior que 2kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p6i &lt;= 2">
+                <then>
+                    <output expression="&quot;&#233; menor que 2kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; maior que 2kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p7i &lt;= 2">
+                <then>
+                    <output expression="&quot;&#233; menor que 2kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; maior que 2kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p8 &lt;= 2">
+                <then>
+                    <output expression="&quot;&#233; menor que 2kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; maior que 2kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p9 &lt;= 2">
+                <then>
+                    <output expression="&quot;&#233; menor que 2kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; maior que 2kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p10i &lt;= 2">
+                <then>
+                    <output expression="&quot;&#233; menor que 2kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; maior que 2kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p1 &lt; 2 &amp;&amp; p1 &gt; 10">
+                <then>
+                    <output expression="&quot;n&#227;o esta entre 2 a 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;esta entre 2 a 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p2 &lt; 2 &amp;&amp; p2 &gt; 10">
+                <then>
+                    <output expression="&quot;n&#227;o esta entre 2 a 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;esta entre 2 a 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p3 &lt; 2 &amp;&amp; p3 &gt; 10">
+                <then>
+                    <output expression="&quot;n&#227;o esta entre 2 a 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;esta entre 2 a 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p4i &lt; 2 &amp;&amp; p4i &gt; 10">
+                <then>
+                    <output expression="&quot;n&#227;o esta entre 2 a 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;esta entre 2 a 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p5i &lt; 2 &amp;&amp; p5i &gt; 10">
+                <then>
+                    <output expression="&quot;n&#227;o esta entre 2 a 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;esta entre 2 a 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p6i &lt; 2 &amp;&amp; p6i &gt; 10">
+                <then>
+                    <output expression="&quot;n&#227;o esta entre 2 a 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;esta entre 2 a 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p7i &lt; 2 &amp;&amp; p7i &gt; 10">
+                <then>
+                    <output expression="&quot;n&#227;o esta entre 2 a 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;esta entre 2 a 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p8 &gt; 2 &amp;&amp; p8 &lt; 10">
+                <then>
+                    <output expression="&quot;esta entre 2 a 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;n&#227;o esta entre 2 a 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p9 &gt; 2 &amp;&amp; p9 &lt; 10">
+                <then>
+                    <output expression="&quot;esta entre 2 a 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;n&#227;o esta entre 2 a 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p10i &lt; 2 &amp;&amp; p10i &gt; 10">
+                <then>
+                    <output expression="&quot;n&#227;o esta entre 2 a 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;esta entre 2 a 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p1 &gt; 10">
+                <then>
+                    <output expression="&quot;&#233; maior que 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; menor que 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p2 &gt; 10">
+                <then>
+                    <output expression="&quot;&#233; maior que 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; menor que 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p3 &gt; 10">
+                <then>
+                    <output expression="&quot;&#233; maior que 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; menor que 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p4i &gt; 10">
+                <then>
+                    <output expression="&quot;&#233; maior que 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; menor que 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p5i &gt; 10">
+                <then>
+                    <output expression="&quot;&#233; maior que 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; menor que 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p6i &gt; 10">
+                <then>
+                    <output expression="&quot;&#233; maior que 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; menor que 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p7i &gt;10">
+                <then>
+                    <output expression="&quot;&#233; maior que 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; menor que 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p8 &gt; 10">
+                <then>
+                    <output expression="&quot;&#233; maior que 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; menor que 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p9 &gt; 10">
+                <then>
+                    <output expression="&quot;&#233; meaior que 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; menor que 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="p10i &gt; 10">
+                <then>
+                    <output expression="&quot;&#233; maior que 10kg&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#233; menor que 10kg&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;o total de produtos &#233; de 10&quot;" newline="True"/>
+            <output expression="&quot;Taxa fixa de R$10 para os pacotes 8 e 9&quot;" newline="True"/>
+            <output expression="&quot;Taxa fixa de R$20 para os pacotes 1, 2, 3, 4, 5, 6, 7 e 10&quot;" newline="True"/>
+            <output expression="&quot;nao tem pacotes acima de 10kg&quot;" newline="True"/>
+            <declare name="capital" type="Integer" array="False" size=""/>
+            <assign variable="capital" expression="20 * 5"/>
+            <declare name="montante" type="Integer" array="False" size=""/>
+            <assign variable="montante" expression="100 * (1 + (20/100))"/>
+            <output expression="&quot;Taxa total de taxa dos pacotes internacionais 4, 5, 6, 7 e 10 &#233; de &quot; &amp;&amp; montante" newline="True"/>
+            <declare name="sp1" type="Integer" array="False" size=""/>
+            <assign variable="sp1" expression="10 * 2"/>
+            <declare name="sptv" type="Integer" array="False" size=""/>
+            <assign variable="sptv" expression="20 * 3"/>
+            <declare name="rp" type="Integer" array="False" size=""/>
+            <assign variable="rp" expression="sptv + sp1 + montante"/>
+            <output expression="&quot;faturamento bruto do lote:&quot; &amp;&amp; rp" newline="True"/>
+            <declare name="m" type="Integer" array="False" size=""/>
+            <assign variable="m" expression="200 / 10"/>
+            <output expression="&quot;m&#233;dia de faturamento por produto&quot; &amp; m" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
