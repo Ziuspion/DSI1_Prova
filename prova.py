@@ -1,0 +1,13 @@
+kg2 = 2
+kg10 = 10
+pacote1 = 5
+pacote2 = 6
+pacote3 = 7
+pacote4i = 10
+pacote5i = 5
+pacote6i = 7
+pacote7i = 6
+pacote8 = 2
+pacote9 = 1
+pacote10i = 8
+if kg2 <= 2:
